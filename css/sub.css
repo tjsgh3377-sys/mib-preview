@@ -38,6 +38,8 @@
 .sec + .sec { margin-top: var(--sec-pad, 120px); }
 /* 실측: 섹션 소제목 24/700 포인트 */
 .t5 { font-size: 24px; font-weight: 700; color: var(--point-text); margin-bottom: 18px; }
+/* 2차수정 s10: 페이지 대제목(섹션 소제목보다 한 단계 위 — 설비 보유 현황 등) */
+.t4 { font-size: 32px; font-weight: 800; color: var(--ink); margin-bottom: 18px; }
 .sec .lead { font-size: 18px; color: var(--gray-600); line-height: 1.7; max-width: 900px; }
 .sec .txt2 { margin-bottom: 18px; }
 
