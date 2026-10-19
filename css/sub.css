@@ -104,6 +104,8 @@
 .catIntro p { font-size: 17px; line-height: 1.85; color: var(--ink-700, #2b3440); max-width: 900px; }
 .catIntro p + p { margin-top: 12px; }
 .catSec + .facGroup { margin-top: 44px; }
+/* 2차수정 s11: 대제목(설비 보유 현황) 바로 아래 여백 절반으로 축소 */
+.titleSec + .catSec { margin-top: 60px; }
 .facGrid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-top: 34px; }
 .facGrid.cols4 { grid-template-columns: repeat(4, 1fr); }
 .facCard { border: 1px solid #e4e8ec; border-radius: var(--card-radius); padding: 22px; background: #fff; min-width: 0; }
