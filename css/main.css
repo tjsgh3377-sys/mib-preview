@@ -117,6 +117,13 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
 }
 .subMenu .contact-link:hover { opacity: .85; }
 
+.langSwitch { display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700; }
+.langSwitch a, .langSwitch span.on { padding: 4px 2px; line-height: 1; }
+.langSwitch a { color: var(--gray-600); transition: color .15s; }
+.langSwitch a:hover { color: var(--point-text); }
+.langSwitch span.on { color: var(--point-text); }
+.langSwitch .sep { color: var(--gray-300); font-weight: 400; }
+
 .mobileMenuBtn { display: none; width: 44px; height: 44px; position: relative; }
 .mobileMenuBtn span { position: absolute; left: 10px; right: 10px; height: 2px; background: var(--ink); }
 .mobileMenuBtn span:nth-child(1) { top: 15px; }
@@ -380,7 +387,7 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
 }
 
 @media (max-width: 1023px) {
-  #gnb, .subMenu .contact-link { display: none; }
+  #gnb, .subMenu .contact-link, .subMenu .langSwitch { display: none; }
   .mobileMenuBtn { display: block; }
   #header { height: 72px; }
   #header .logo img { height: 32px; }
